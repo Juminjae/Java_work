@@ -1,0 +1,22 @@
+package ex;
+
+import java.util.Scanner;
+
+public class ex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a;
+		Scanner input = new Scanner(System.in);
+		a = input.nextInt();
+		
+		if (a%2 == 0) {
+			System.out.print("Â¦¼ö");
+		}
+		else {
+			System.out.print("È¦¼ö");
+		}
+	}
+}
+

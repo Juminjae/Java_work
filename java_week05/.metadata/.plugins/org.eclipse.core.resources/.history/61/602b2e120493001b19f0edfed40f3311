@@ -1,0 +1,16 @@
+//학번 : 20215249 
+//이름 : 주민재
+//관계연산과 논리연산으로 결과를 출력하는 프로그램
+
+package week05;
+
+import java.util.Scanner;
+
+public class ex06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

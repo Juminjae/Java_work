@@ -1,0 +1,33 @@
+//학번 : 20215249 
+//이름 : 주민재
+//관계연산과 논리연산으로 결과를 출력하는 프로그램
+
+package week05;
+
+public class ex06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age, computer, eng, math, absence, leap, num;
+		char married, gender;
+		double sum, average;
+		
+		married = 'Y';
+		gender = 'M';
+		age = 26;
+		computer = 80;
+		eng = 90;
+		math = 65;
+		leap = 2020;
+		absence = 3;
+		num = 15;
+		
+		sum = computer + eng + math;
+		average = sum / 3.0;
+		
+		System.out.print("1. 미혼인가:" + (married == 'Y'));
+		System.out.print("\n2. 나이가 19세 이상이고 남자인가:" + (age >= 19 && gender == 'M'));
+		System.out.print("\n3. 컴퓨터와 영어 그리고 수학 모두가 90점 이상인가:" + (computer>=90 && math>=90));
+	}
+
+}

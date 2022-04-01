@@ -1,0 +1,19 @@
+//학번 : 20215249 
+//이름 : 주민재
+//키와 몸무게를 입력받아 표준체중과 비만도 계산하는 프로그램
+
+package week05;
+
+import java.util.Scanner;
+
+public class ex02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int nomal_weight, height, obese_rate, weight;
+		Scanner input = new Scanner(System.in);
+		input.nextInt();
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+//학번 : 20215249 
+//이름 : 주민재
+//TRUE,False로 값 출력
+
+package week05;
+
+public class ex05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=3 , j=3 , k=5;
+	}
+
+}

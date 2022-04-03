@@ -1,0 +1,22 @@
+package ex01;
+
+public class ex07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i, j;
+		
+		System.out.println("1)\n");
+		for (i = 1; i <= 5; i++) {
+			for (j = 1; i <= 5; j++) {
+				System.out.println(j);
+			}
+			System.out.println(i);
+		}
+		System.out.println("\n2)\n");
+		for (i = 1; i <= 9; i+=2) {
+			System.out.println(i);
+		}
+	}
+
+}

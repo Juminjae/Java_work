@@ -1,0 +1,45 @@
+package week12;
+
+class Account{
+	private String AccountNo;
+	private String owner;
+	private int balance;
+	
+public String getAccountNo() {
+	return AccountNo;
+}
+public void setAccountNo(String name) {
+	AccountNo = name;
+}
+public String getOwner() {
+	return owner;
+}
+public void setOwner(String own) {
+	owner = own;
+}
+public int getBalance() {
+	return balance;
+}
+public void setBalance(int a) {
+	balance = a;
+}
+public String toString() {
+	String str = "°èÁÂ¹øÈ£: ";
+	str += AccountNo;
+	str += "\n¿¹±ÝÁÖ: ";
+	str += owner;
+	str += "\nÀÜ¾×: ";
+	str += balance;
+	return str;
+}
+
+}
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
